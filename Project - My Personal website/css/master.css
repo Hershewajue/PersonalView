@@ -1,0 +1,264 @@
+body{
+  position: relative;
+}
+#head{
+  background-color: #030f04;
+}
+.hoverlink a:hover{
+  background-color: red;
+}
+.mode{
+  width: 50px;
+  height: 50px;
+}
+.theme{
+  background-color: white;
+  color: black;
+}
+#logo{
+  background-color: #030f04;
+}
+#span{
+  color: red;
+}
+.name{
+  color: white;
+}
+.read{
+  background-color: #030f04;
+  color: white;
+  text-decoration: none;
+
+}
+#collapsibleNavbar{
+  font-size: 1.2em;
+}
+#intro{
+  background-color: #a4ebac;
+  padding:100px 20px 0 40px;
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: auto;
+  text-align: center;
+}
+#introText{
+  color: white;
+  font-size: 1.5em;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  background-blend-mode: darken;
+}
+#carousel{
+  padding:50px 20px;
+}
+.float-tb-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.blog1{
+    background: url(../images/img8.jpg) no-repeat 0px 0px;
+    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+}
+.blog2{
+    background: url("../images/img7.jpg") no-repeat 0px 0px;
+    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment:fixed;
+}
+.blog-grid{
+  border: 2px solid #ccc;
+  padding: 2em;
+  background: rgba(0, 0, 0, 0.3);
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+.blog-grid1{
+  border: 2px solid #ccc;
+  padding: 2em;
+}
+.blog-grid1:hover {
+  background-blend-mode: lighten;
+  background: rgba(0, 0, 0, 0.3);
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+#project{
+  color: lightgrey;
+  padding:100px 20px;
+  font-size: 1.5em;
+  height: 700px;
+}
+.tabs{
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: overline;
+  text-decoration-color: red;
+}
+.img{
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+.modalheight{
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  background-blend-mode: lighten;
+  background: rgba(0, 0, 0, 0.3);
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+#onlinecv{
+  background-color: lightgrey;
+  color: #030f04;
+  padding:100px 20px;
+  font-size: 1.5em;
+  height: 680px;
+}
+.services{
+  border: thin solid #030f04;
+  background-blend-mode: darken;
+  font-size: -1em;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  text-decoration: none;
+}
+.services h3{
+  color: red;
+}
+#services{
+  background: rgba(0, 0, 0, 0.2);
+  margin-top: -20px;
+  width: 100%;
+  height: 275px;
+  padding: 3px;
+}
+.services a{
+  text-decoration: none;
+  color: white;
+}
+.services a:hover{
+  color: white;
+}
+.services p{
+  margin: -2px;
+}
+#hershewajue{
+  background-blend-mode: lighten;
+  background: rgba(0, 0, 0, 0.3);
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-o-transition: 0.5s all;
+  height: auto;
+}
+#contact{
+  background-color: lightgrey;
+  color: #030f04;
+  padding:100px 20px 0 40px;
+  font-size: 1.5em;
+  height: 650px;
+}
+.form{
+  background-blend-mode: darken;
+  border: 2px solid #030f04;
+  padding: 15px 10px;
+  margin: 10px;
+  font-size: -1em;
+}
+.form h3{
+  color: red;
+}
+.form a{
+  text-decoration: none;
+  color: navyblue;
+}
+.form p{
+  margin: -2px;
+}
+.subscribe{
+  height: 335px;
+  background-color: grey;
+  color: black;
+  padding-top:50px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.subscribe p{
+  font-style: italic;
+}
+#subscribe{
+  background-blend-mode: darken;
+  border: 2px solid #030f04;
+  padding: 15px 10px;
+  margin: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.footers{
+  height: 265px;
+  background-color: black;
+  padding:50px 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.icon-bar a:hover {
+  background-color: #030f04;
+}
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+.instagram {
+  background: #f77737;
+  color: white;
+}
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+.youtube {
+  background: #bb0000;
+  color: white;
+}
